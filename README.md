@@ -1,3 +1,72 @@
+# HCI Course Project - Android App
+
+## Project Overview
+
+This project is part of the HCI course in the 6th semester and focuses on developing an Android application that adheres to Jakob Nielsen's usability heuristics and integrates the Google Fit API to count and display footsteps.
+
+## Features
+
+- **Usability**: Incorporates Jakob Nielsen's 10 usability heuristics to ensure a seamless user experience.
+- **Fitness Tracking**: Utilizes Google Fit API to track and display user footsteps in real-time.
+
+## Jakob Nielsen's Usability Heuristics
+
+![Jakob Nielsen's Heuristics](https://user-images.githubusercontent.com/12345678/heuristics.jpg)
+
+1. **Visibility of system status**: The app will keep users informed through appropriate feedback within a reasonable time.
+2. **Match between system and the real world**: The app will speak the users' language, using familiar concepts.
+3. **User control and freedom**: Users can easily exit from unwanted actions.
+4. **Consistency and standards**: The app will follow platform conventions.
+5. **Error prevention**: Prevent errors by providing careful design and clear options.
+6. **Recognition rather than recall**: Minimize user memory load by making objects, actions, and options visible.
+7. **Flexibility and efficiency of use**: The app will cater to both novice and experienced users.
+8. **Aesthetic and minimalist design**: Only relevant information will be displayed.
+9. **Help users recognize, diagnose, and recover from errors**: Error messages will be plain-language and offer solutions.
+10. **Help and documentation**: Provide easy access to help and documentation.
+
+## Google Fit API
+
+![Google Fit API](https://user-images.githubusercontent.com/12345678/googlefit.jpg)
+
+The Google Fit API enables the app to:
+
+- **Track Footsteps**: Count and display the number of steps taken by the user.
+- **Fitness Data Integration**: Aggregate fitness data from different sources and present it in a unified manner.
+
+## Setup and Installation
+
+1. **Clone the Repository**
+    ```bash
+    https://github.com/ShahxHussain/HCI-Course-Project-6th-semester
+    cd hci-course-project
+    ```
+
+2. **Open in VSCode**
+   - Open VSCode and select "Open Folder".
+   - Navigate to the cloned repository and open it.
+
+3. **Configure Google Fit API**
+   - Follow the [Google Fit API setup guide](https://developers.google.com/fit/android/get-started) to configure your project.
+   - Add the necessary API keys and permissions in your `AndroidManifest.xml`.
+
+4. **Build and Run**
+   - Connect your Android device or use an emulator.
+   - Use Expo to build and launch the app.
+   ```bash
+   expo start
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
