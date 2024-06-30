@@ -1,5 +1,6 @@
 # HCI Course Project - Android App
-![FormFit](https://github.com/ShahxHussain/HCI-Course-Project-6th-semester/blob/main/assets/images/Logo.png)
+<img src="https://github.com/ShahxHussain/HCI-Course-Project-6th-semester/blob/main/assets/images/Logo.png" alt="FormFit" width="200"/>
+
 
 ## Project Overview
 
