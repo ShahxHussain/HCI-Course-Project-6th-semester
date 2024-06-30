@@ -1,4 +1,6 @@
 # HCI Course Project - Android App
+<img src="https://github.com/ShahxHussain/HCI-Course-Project-6th-semester/blob/main/assets/images/Logo.png" alt="FormFit" width="200"/>
+
 
 ## Project Overview
 
@@ -11,7 +13,7 @@ This project is part of the HCI course in the 6th semester and focuses on develo
 
 ## Jakob Nielsen's Usability Heuristics
 
-![Jakob Nielsen's Heuristics](https://user-images.githubusercontent.com/12345678/heuristics.jpg)
+![Jakob Nielsen's Heuristics](https://github.com/ShahxHussain/HCI-Course-Project-6th-semester/blob/main/assets/principles.png)
 
 1. **Visibility of system status**: The app will keep users informed through appropriate feedback within a reasonable time.
 2. **Match between system and the real world**: The app will speak the users' language, using familiar concepts.
@@ -26,7 +28,7 @@ This project is part of the HCI course in the 6th semester and focuses on develo
 
 ## Google Fit API
 
-![Google Fit API](https://user-images.githubusercontent.com/12345678/googlefit.jpg)
+![Google Fit API](https://github.com/ShahxHussain/HCI-Course-Project-6th-semester/blob/main/assets/fitapi.jpg)
 
 The Google Fit API enables the app to:
 
@@ -38,7 +40,6 @@ The Google Fit API enables the app to:
 1. **Clone the Repository**
     ```bash
     https://github.com/ShahxHussain/HCI-Course-Project-6th-semester
-    cd hci-course-project
     ```
 
 2. **Open in VSCode**
@@ -54,16 +55,7 @@ The Google Fit API enables the app to:
    - Use Expo to build and launch the app.
    ```bash
    expo start
-
-
-
-
-
-
-
-
-
-
+   
 --------------------------------------------------------------------------------------------
 
 
