@@ -26,7 +26,7 @@ This project is part of the HCI course in the 6th semester and focuses on develo
 
 ## Google Fit API
 
-![Google Fit API](https://user-images.githubusercontent.com/12345678/googlefit.jpg)
+![Google Fit API](https://github.com/ShahxHussain/HCI-Course-Project-6th-semester/blob/main/assets/fitapi.jpg)
 
 The Google Fit API enables the app to:
 
