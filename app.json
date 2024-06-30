@@ -1,5 +1,6 @@
 {
   "expo": {
+    "permissions": ["ACTIVITY_RECOGNITION"],
     "name": "Excerise",
     "slug": "Excerise",
     "version": "1.0.0",

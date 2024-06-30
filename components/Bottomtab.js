@@ -37,7 +37,7 @@ function BottomTab() {
           } else if (route.name === 'Improve Form') {
             iconName = focused ? 'aperture' : 'aperture-outline';
           }else if (route.name === 'Steps Count') {
-            iconName = focused ? 'aperture' : 'aperture-outline';
+            iconName = focused ? 'walk' : 'walk-outline';
           }
 
           return <Ionicons name={iconName} size={30} color={color} />;
