@@ -40,7 +40,6 @@ The Google Fit API enables the app to:
 1. **Clone the Repository**
     ```bash
     https://github.com/ShahxHussain/HCI-Course-Project-6th-semester
-    cd hci-course-project
     ```
 
 2. **Open in VSCode**
@@ -56,16 +55,7 @@ The Google Fit API enables the app to:
    - Use Expo to build and launch the app.
    ```bash
    expo start
-
-
-
-
-
-
-
-
-
-
+   
 --------------------------------------------------------------------------------------------
 
 
