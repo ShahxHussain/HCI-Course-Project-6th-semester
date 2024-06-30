@@ -11,7 +11,7 @@ This project is part of the HCI course in the 6th semester and focuses on develo
 
 ## Jakob Nielsen's Usability Heuristics
 
-![Jakob Nielsen's Heuristics](https://user-images.githubusercontent.com/12345678/heuristics.jpg)
+![Jakob Nielsen's Heuristics](https://github.com/ShahxHussain/HCI-Course-Project-6th-semester/blob/main/assets/principles.png)
 
 1. **Visibility of system status**: The app will keep users informed through appropriate feedback within a reasonable time.
 2. **Match between system and the real world**: The app will speak the users' language, using familiar concepts.
