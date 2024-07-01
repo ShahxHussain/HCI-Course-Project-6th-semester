@@ -9,6 +9,7 @@ export default function StepsCounts() {
   const [currentStepCount, setCurrentStepCount] = useState(0);
   const [fontsLoaded, setFontsLoaded] = useState(false);
 
+
   const requestPermissions = async () => {
     if (Platform.OS === 'android') {
       try {
