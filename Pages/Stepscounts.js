@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, Alert, PermissionsAndroid, Platform } from 'rea
 import { Pedometer } from 'expo-sensors';
 import { Ionicons } from '@expo/vector-icons';
 import * as Font from 'expo-font';
- 
 
 export default function StepsCounts() {
   const [isPedometerAvailable, setIsPedometerAvailable] = useState('checking');

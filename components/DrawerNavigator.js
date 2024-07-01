@@ -5,6 +5,7 @@ import BottomTab from '../components/Bottomtab'; // Make sure this path is corre
 import RegisterScreen from '../Pages/Signup';
 import LoginScreen from '../Pages/Login';
 import Instructions from '../Pages/Instructions';
+import Logout from '../Pages/Logout';
 
 const Drawer = createDrawerNavigator();
 
@@ -22,7 +23,7 @@ function DrawerNavigator() {
         }} 
       />
       <Drawer.Screen 
-        name="LoginScreen" 
+        name="Login" 
         component={LoginScreen} 
         options={{
           headerShown: false,
@@ -32,7 +33,7 @@ function DrawerNavigator() {
         }} 
       />
       <Drawer.Screen 
-        name="RegisterScreen" 
+        name="Register" 
         component={RegisterScreen} 
         options={{
           headerShown: false,
@@ -48,6 +49,16 @@ function DrawerNavigator() {
           headerShown: false,
           drawerIcon: ({ color, size }) => (
             <Icon name="information-circle-outline" color={color} size={size} />
+          ),
+        }} 
+      />
+      <Drawer.Screen 
+        name="Logout" 
+        component={Logout}  
+        options={{
+          headerShown: false,
+          drawerIcon: ({ color, size }) => (
+            <Icon name="log-out-outline" color={color} size={size} />
           ),
         }} 
       />

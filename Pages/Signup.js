@@ -70,7 +70,7 @@ function RegisterScreen({ navigation }) {
       <Button
         mode="contained"
         onPress={onSignUpPressed}
-        style={{ marginTop: 24 }}
+        style={{ marginTop: 24, backgroundColor: theme.colors.primary}}
       >
         Sign Up
       </Button>
