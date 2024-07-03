@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TouchableOpacity, StyleSheet, View } from 'react-native';
+import { TouchableOpacity, StyleSheet, View, Alert } from 'react-native';
 import { Text } from 'react-native-paper';
 import Background from '../components/Background.js';
 import Logo from '../components/Logo.js';
@@ -8,26 +8,34 @@ import Button from '../components/Button.js';
 import TextInput from '../components/TextInput.js';
 import BackButton from '../components/BackButton.js';
 import { theme } from '../core/theme.js';
-import  emailValidator  from '../helpers/emailValidator.js';
-import  passwordValidator  from '../helpers/passwordValidator.js';
+import { emailValidator } from '../helpers/emailValidator.js';
+import { passwordValidator } from '../helpers/passwordValidator.js';
 
-const LoginScreen=({ navigation })=> {
-  const [email, setEmail] = useState({ value: '', error: '' })
-  const [password, setPassword] = useState({ value: '', error: '' })
+const LoginScreen = ({ navigation }) => {
+  const [email, setEmail] = useState({ value: '', error: '' });
+  const [password, setPassword] = useState({ value: '', error: '' });
 
   const onLoginPressed = () => {
-    const emailError = emailValidator(email.value)
-    const passwordError = passwordValidator(password.value)
+    const emailError = emailValidator(email.value);
+    const passwordError = passwordValidator(password.value);
     if (emailError || passwordError) {
-      setEmail({ ...email, error: emailError })
-      setPassword({ ...password, error: passwordError })
-      return
+      setEmail({ ...email, error: emailError });
+      setPassword({ ...password, error: passwordError });
+
+      Alert.alert(
+        'Invalid Input',
+        'Please fill out all fields correctly.',
+        [{ text: 'OK' }]
+      );
+
+      return;
     }
+    
     navigation.reset({
       index: 0,
-      routes: [{ name: 'Dashboard' }],
-    })
-  }
+      routes: [{ name: 'Home' }],
+    });
+  };
 
   return (
     <Background>
@@ -56,9 +64,7 @@ const LoginScreen=({ navigation })=> {
         secureTextEntry
       />
       <View style={styles.forgotPassword}>
-        <TouchableOpacity
-          onPress={() => navigation.navigate('ResetPasswordScreen')}
-        >
+        <TouchableOpacity onPress={() => navigation.navigate('ResetPasswordScreen')}>
           <Text style={styles.forgot}>Forgot your password?</Text>
         </TouchableOpacity>
       </View>
@@ -72,8 +78,8 @@ const LoginScreen=({ navigation })=> {
         </TouchableOpacity>
       </View>
     </Background>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   forgotPassword: {
@@ -96,5 +102,6 @@ const styles = StyleSheet.create({
   b1: {
     backgroundColor: '#2e6df5',
   },
-})
+});
+
 export default LoginScreen;
